@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5eb07fa5.css",
+    "main.js": "/static/js/main.aa1a1c1e.js",
+    "static/js/787.b7e0f37b.chunk.js": "/static/js/787.b7e0f37b.chunk.js",
+    "static/media/ledlight.jpg": "/static/media/ledlight.0e7276f5a3a23ee9d451.jpg",
+    "static/media/google.png": "/static/media/google.6bc7d49355c4e25579a0.png",
+    "static/media/showerhead.jpg": "/static/media/showerhead.808e318f70e0657a0f99.jpg",
+    "static/media/ework.jpg": "/static/media/ework.adbbec41dd82298635bd.jpg",
+    "static/media/background.jpeg": "/static/media/background.74461832d4946bc69614.jpeg",
+    "index.html": "/index.html",
+    "main.5eb07fa5.css.map": "/static/css/main.5eb07fa5.css.map",
+    "main.aa1a1c1e.js.map": "/static/js/main.aa1a1c1e.js.map",
+    "787.b7e0f37b.chunk.js.map": "/static/js/787.b7e0f37b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5eb07fa5.css",
+    "static/js/main.aa1a1c1e.js"
+  ]
+}

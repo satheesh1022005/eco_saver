@@ -1,0 +1,340 @@
+{
+  "Logical Thinking": {
+    "1": {
+      "question": "Question: What is the next number in the sequence? 2, 5, 10, 17, ___",
+      "answers": {
+        "A": "24",
+        "B": "26",
+        "C": "31",
+        "D": "33"
+      },
+      "answer": "C"
+    },
+    "2": {
+      "question": "Question: If all roses are flowers and some flowers fade quickly, can we conclude that some roses fade quickly?",
+      "answers": {
+        "A": "Yes",
+        "B": "No",
+        "C": "Maybe",
+        "D": "Not enough information"
+      },
+      "answer": "D"
+    },
+    "3": {
+      "question": "Question: Which word does not belong in the following group? Apple, Orange, Banana, Grape, Carrot",
+      "answers": {
+        "A": "Apple",
+        "B": "Orange",
+        "C": "Banana",
+        "D": "Carrot",
+        "E": "Grape"
+      },
+      "answer": "E"
+    },
+    "4": {
+      "question": "Question: Which word does not belong in the following group? Apple, Orange, Banana, Grape, Carrot",
+      "answers": {
+        "A": "Apple",
+        "B": "Orange",
+        "C": "Banana",
+        "D": "Grape",
+        "E": "Carrot"
+      },
+      "answer": "D"
+    },
+    "5": {
+      "question": "Question: If a clock shows 3:15, what is the angle between the hour and minute hands?",
+      "answers": {
+        "A": "37.5 degrees",
+        "B": "45 degrees",
+        "C": "52.5 degrees",
+        "D": "60 degrees"
+      },
+      "answer": "A"
+    },
+    "6": {
+      "question": "Question: What comes next in the series? 3, 6, 9, 12, ___",
+      "answers": {
+        "A": "14",
+        "B": "15",
+        "C": "18",
+        "D": "21"
+      },
+      "answer": "C"
+    },
+    "7": {
+      "question": "Question: If a shirt costs $20 after a 25% discount, what was its original price?",
+      "answers": {
+        "A": "$15",
+        "B": "$20",
+        "C": "$25",
+        "D": "$30"
+      },
+      "answer": "C"
+    },
+    "8": {
+      "question": "Question: Arrange the following words alphabetically: Elephant, Apple, Banana, Carrot",
+      "answers": {
+        "A": "Apple, Banana, Carrot, Elephant",
+        "B": "Banana, Apple, Carrot, Elephant",
+        "C": "Apple, Banana, Elephant, Carrot",
+        "D": "Banana, Apple, Elephant, Carrot"
+      },
+      "answer": "A"
+    },
+    "9": {
+      "question": "Question: If X + Y = 10 and X - Y = 4, what is the value of X?",
+      "answers": {
+        "A": "7",
+        "B": "5",
+        "C": "6",
+        "D": "8"
+      },
+      "answer": "A"
+    },
+    "10": {
+      "question": "Question: Which shape is different from the others?",
+      "answers": {
+        "A": "Square",
+        "B": "Circle",
+        "C": "Triangle",
+        "D": "Rectangle"
+      },
+      "answer": "B"
+    }
+  },
+  "Problem-Solving Skills": {
+    "1": {
+      "question": "Question: You have a 3-gallon jug and a 5-gallon jug. How can you measure out exactly 4 gallons of water?",
+      "answers": {
+        "A": "Fill the 5-gallon jug and pour it into the 3-gallon jug. ",
+        "B": "Fill the 3-gallon jug and pour it into the 5-gallon jug. ",
+        "C": "Fill the 5-gallon jug, pour it into the 3-gallon jug until full, leaving 2 gallons in the 5-gallon jug. ",
+        "D": "Fill the 3-gallon jug, pour it into the 5-gallon jug until full, leaving 3 gallons in the 3-gallon jug. "
+      },
+      "answer": "C"
+    },
+    "12": {
+      "question": "Question: If a shirt costs $40 and is on sale for 20% off, how much will you pay?",
+      "answers": {
+        "A": "$32",
+        "B": "$36",
+        "C": "$38",
+        "D": "$42"
+      },
+      "answer": "A"
+    },
+    "13": {
+      "question": "Question: You are in a room with three light switches. Only one of them controls a light bulb in the next room. How do you find which switch controls the light if you can only make one trip into the next room?",
+      "answers": {
+        "A": "Flip each switch one by one and see which one controls the light. ",
+        "B": "Leave one switch on for a few minutes, then flip another switch. ",
+        "C": "Flip all switches on and off rapidly. ",
+        "D": "Turn on one switch and wait for a while, then flip another switch. "
+      },
+      "answer": "D"
+    },
+    "14": {
+      "question": "Question: If you rearrange the letters \"CIFAIPC,\" you get the name of a(n):",
+      "answers": {
+        "A": "Ocean",
+        "B": "Animal",
+        "C": "Country",
+        "D": "Bird"
+      },
+      "answer": "C"
+    },
+    "15": {
+      "question": "Question: A farmer has 17 sheep, and all but 9 die. How many are left?",
+      "answers": {
+        "A": "9",
+        "B": "8",
+        "C": "17",
+        "D": "1"
+      },
+      "answer": "B"
+    },
+    "16": {
+      "question": "Question: I am taken from a mine and shut up in a wooden case, from which I am never released, and yet I am used by almost every person. What am I?",
+      "answers": {
+        "A": "Gold",
+        "B": "Diamond",
+        "C": "Pencil lead",
+        "D": "Coal"
+      },
+      "answer": "C"
+    },
+    "17": {
+      "question": "Question: A plane crashes on the border between the U.S. And Mexico. Where do they bury the survivors?",
+      "answers": {
+        "A": "In the U.S.",
+        "B": "In Mexico",
+        "C": "Nowhere",
+        "D": "It depends on the survivors' preferences"
+      },
+      "answer": "C"
+    },
+    "18": {
+      "question": "Question: How many times can you subtract 7 from 49?",
+      "answers": {
+        "A": "Once",
+        "B": "Twice",
+        "C": "As many times as you want",
+        "D": "It's not possible"
+      },
+      "answer": "A"
+    },
+    "19": {
+      "question": "Question: How do you open the Task Manager in Windows?",
+      "answers": {
+        "A": "Ctrl + Alt + Del and select Task Manager",
+        "B": "Ctrl + Shift + Esc",
+        "C": "Right-click on the desktop and select Task Manager",
+        "D": "Start Menu > Control Panel > Task Manager"
+      },
+      "answer": "B"
+    },
+    "20": {
+      "question": "Question: What does the acronym HTML stand for in web development?",
+      "answers": {
+        "A": "HyperText Markup Language",
+        "B": "High-Level Text Management Language",
+        "C": "Hyperlink and Text Markup Language",
+        "D": "Home Tool Markup Language"
+      },
+      "answer": "A"
+    },
+    "21": {
+      "question": "Question: Which storage device is typically used for long-term storage of data?",
+      "answers": {
+        "A": "RAM",
+        "B": "SSD",
+        "C": "CPU",
+        "D": "HDD"
+      },
+      "answer": "D"
+    },
+    "22": {
+      "question": "Question: What is the function of an operating system?",
+      "answers": {
+        "A": "Manage hardware resources and provide an interface for user interaction",
+        "B": "Control the internet connection",
+        "C": "Run software applications",
+        "D": "Store files and folders"
+      },
+      "answer": "A"
+    },
+    "23": {
+      "question": "Question: How do you create a new folder in Windows File Explorer?",
+      "answers": {
+        "A": "Ctrl + N",
+        "B": "Ctrl + Shift + N",
+        "C": "Right-click and select New > Folder",
+        "D": "Alt + F4"
+      },
+      "answer": "C"
+    },
+    "24": {
+      "question": "Question: What does the acronym URL stand for?",
+      "answers": {
+        "A": "Uniform Resource Locator",
+        "B": "Universal Resource Locator",
+        "C": "Unified Resource Locator",
+        "D": "User Resource Locator"
+      },
+      "answer": "A"
+    },
+    "25": {
+      "question": "Question: Which of the following is a web browser?",
+      "answers": {
+        "A": "Photoshop",
+        "B": "Excel",
+        "C": "Chrome",
+        "D": "Word"
+      },
+      "answer": "C"
+    },
+    "26": {
+      "question": "Question: What is the purpose of the Ctrl + C keyboard shortcut?",
+      "answers": {
+        "A": "Cut",
+        "B": "Copy",
+        "C": "Paste",
+        "D": "Undo"
+      },
+      "answer": "B"
+    }
+  },
+  "Attention to Detail": {
+    "27": {
+      "question": "Question: In the sentence \"The quick brown fox jumps over the lazy dog,\" how many times does the letter 'e' appear?",
+      "answers": {
+        "A": "2",
+        "B": "21",
+        "C": "23",
+        "D": "24"
+      },
+      "answer": "C"
+    },
+    "28": {
+      "question": "Question: Which of the following numbers is written correctly in ascending order?",
+      "answers": {
+        "A": "Twenty-four",
+        "B": "21",
+        "C": "Thirty",
+        "D": "Eighteen"
+      },
+      "answer": "B"
+    },
+    "29": {
+      "question": "Question: How many legs does a dog have if you count the tail as a leg?",
+      "answers": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "answer": "B"
+    },
+    "30": {
+      "question": "Question: Which of the following shapes is a rectangle?",
+      "answers": {
+        "A": "All sides are equal",
+        "B": "All sides are unequal",
+        "C": "Opposite sides are equal, and all angles are 90 degrees",
+        "D": "All angles are acute"
+      },
+      "answer": "C"
+    },
+    "31": {
+      "question": "Question: How many squares are in the following diagram?",
+      "answers": {
+        "A": "6",
+        "B": "8",
+        "C": "10",
+        "D": "12"
+      },
+      "answer": "B"
+    },
+    "32": {
+      "question": "Question: Which of the following is a prime number?",
+      "answers": {
+        "A": "1",
+        "B": "2",
+        "C": "4",
+        "D": "9"
+      },
+      "answer": "A"
+    },
+    "33": {
+      "question": "Question: Identify the missing punctuation in the following sentence: \"Please bring a pen paper and notebook.\"",
+      "answers": {
+        "A": "Comma after 'pen'",
+        "B": "Comma after 'paper'",
+        "C": "Comma after 'and'",
+        "D": "Period at the end"
+      },
+      "answer": "C"
+    }
+  }
+}

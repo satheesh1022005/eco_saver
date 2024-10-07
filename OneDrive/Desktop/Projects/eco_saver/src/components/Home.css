@@ -1,0 +1,75 @@
+.nav{
+    height: 3em;
+    background-color: black;
+}
+.electric-home{
+    padding: 1em;
+    max-width: 50em;
+}
+.electric-dash-grid{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 4em;
+    gap: 0.8em;
+    margin: 2em 0em;
+}
+.electric-dash-grid article:first-child{
+    grid-column: 1/3;
+    font-size: larger;
+    font-weight: 600;
+}
+.electric-dash-grid article{
+    box-sizing: border-box;
+    border:1px solid black;
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.electric-dash-header{
+    font-size: 1em;
+    line-height: 0.5em;
+}
+.electric-dash-header+p{
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 1em;
+    color: #4ecd32;
+}
+.electric-recom-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(2em);
+    gap: 0.5em;
+    margin-top: 1.5em;
+}
+.electric-recom-grid *{
+    padding: 0.3em;
+}
+.electric-recom-grid div:nth-child(even),.electric-recom-grid article:nth-child(even){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+.electric-recom-grid article:nth-child(-n+2),.electric-usage-grid div:nth-child(-n+3){
+    font-size:larger;
+    font-weight: 700;
+    border: none;
+}
+.electric-usage-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5em;
+}
+.electric-usage-grid *{
+    display: flex;
+    justify-content: center;
+    padding: 0.5em;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.electric-usage{
+    margin-bottom: 50px;
+}

@@ -1,0 +1,30 @@
+.container{
+    margin:0;
+    padding: 0;
+}
+.container h2{
+    display: flex;
+    justify-content: center;
+    
+}
+.form-input{
+    padding: 20px;
+}
+.form-control {
+    border: none;
+    border: 2px solid #4ECD32; /* Adding a bottom border with the specified color */
+    outline: none; /* Remove default focus outline */
+  }
+  
+  /* Optionally, you can add some additional styling for better aesthetics */
+  .form-control:focus {
+    border-bottom: 2px solid #2E8B57; /* Change border color on focus */
+  }
+  
+.target{
+    padding: 20px;
+}
+.target label{
+    font-weight: bolder;
+    font-size: 1rem;
+}

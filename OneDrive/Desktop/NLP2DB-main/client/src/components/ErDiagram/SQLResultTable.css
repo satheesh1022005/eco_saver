@@ -1,0 +1,21 @@
+.data-display-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.data-display-table th,
+.data-display-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.data-display-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.data-display-table tr:hover {
+  background-color: #f1f1f1;
+}

@@ -1,0 +1,81 @@
+.execute-sql-container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Arial", sans-serif;
+}
+
+.execute-sql-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.sql-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.sql-input-container textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  resize: vertical;
+}
+
+.execute-button {
+  width: 150px;
+  align-self: flex-end;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.execute-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.execute-button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.result-container {
+  margin-top: 20px;
+  background-color: #e8f5e9;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.result-container h3 {
+  color: #388e3c;
+  margin-bottom: 10px;
+}
+
+.error-container {
+  margin-top: 20px;
+  background-color: #ffebee;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.error-container h3 {
+  color: #d32f2f;
+  margin-bottom: 10px;
+}
+
+.error-container p {
+  color: #d32f2f;
+  margin: 0;
+}

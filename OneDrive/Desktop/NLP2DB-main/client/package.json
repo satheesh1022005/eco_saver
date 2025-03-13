@@ -1,0 +1,47 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "axios": "^1.7.9",
+    "file-saver": "^2.0.5",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.2",
+    "mermaid": "^11.3.0",
+    "react": "^18.3.1",
+    "react-component-export-image": "^1.0.6",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.4.0",
+    "react-mermaid2": "^0.1.4",
+    "react-router-dom": "^7.1.1",
+    "react-svg-pan-zoom": "^3.13.1",
+    "react-table": "^7.8.0",
+    "react-toastify": "^11.0.2",
+    "react-zoom-pan-pinch": "^3.6.1",
+    "svg-crowbar": "^0.7.0",
+    "sweetalert2": "^11.15.5",
+    "xmlbuilder": "^15.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+    "vite": "^5.4.1"
+  }
+}

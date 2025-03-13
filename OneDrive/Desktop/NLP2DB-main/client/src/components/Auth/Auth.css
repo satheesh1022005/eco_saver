@@ -1,0 +1,78 @@
+.auth-container {
+  background-color: rgba(255, 255, 255, 0.313);
+  color: #ecf0f1;
+  width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  position: relative;
+  top: 100px; /* Adjust position to fit with the landing page */
+  z-index: 99;
+}
+
+.auth-container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.auth-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #000;
+  color: #ecf0f1;
+}
+
+.auth-container button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  background-color: #00b7ff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.auth-container button:hover {
+  background-color: #00a1e1;
+}
+
+.toggle-form-text {
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+.toggle-link {
+  color: #00b5ff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.toggle-link:hover {
+  color: #00a1e1;
+}
+
+/* Back Button Styling */
+.back-button {
+  position: absolute;
+  top: 35px;
+  left: 10px;
+  cursor: pointer;
+}
+
+.swal-popup-small {
+  width: 25em;
+  height: 6em;
+  padding: 5px 10px;
+  font-size: 11px;
+  border-radius: 5px;
+}
+.swal2-progress-bar {
+  background-color: #ff9800;
+}

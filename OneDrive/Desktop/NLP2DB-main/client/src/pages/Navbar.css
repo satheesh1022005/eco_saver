@@ -1,0 +1,146 @@
+/* Navbar Container */
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff84; /* Slightly transparent background */
+  color: #fff;
+  position: relative;
+  z-index: 10; /* To keep the navbar above the blur */
+}
+
+/* Logo and Title Styling */
+.logo-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: color 1s ease;
+}
+
+.logo-icon h1:hover {
+  color: #ff0055;
+}
+
+.logo-img {
+  width: 3.5em;
+  height: 3.5em;
+  border-radius: 50%;
+}
+
+.logo-icon h1 {
+  font-size: 2rem;
+  color: #007bff;
+  letter-spacing: 3px;
+  margin-left: 15px;
+}
+
+/* Hamburger Menu */
+.hamburger-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 25px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.hamburger-icon .line {
+  width: 100%;
+  height: 3px;
+  background-color: #000000;
+}
+
+/* Menu Styling */
+.menu {
+  position: absolute;
+  top: 1em;
+  right: 0;
+  width: 25em;
+  height: 95vh;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 20px 0 0 20px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  border: 2px solid rgba(0, 0, 0, 0.32);
+  border-right: none; /* No border for the right side */
+  transform: translateY(10px);
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.menu-top {
+  display: flex;
+  justify-content: space-between;
+}
+.close-icon {
+  margin-top: 1em;
+  cursor: pointer;
+  padding: 2px;
+}
+.close-icon:hover {
+  background-color: #e1e1e1;
+  border-radius: 2px;
+}
+/* Backdrop blur effect */
+.menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff01;
+  backdrop-filter: blur(2px); /* Apply blur effect */
+  z-index: 50; /* Behind the menu */
+  display: none; /* Initially hidden */
+}
+
+/* When menu is open, show overlay and animate menu */
+.menu-open .menu {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.menu-open .menu-overlay {
+  display: block;
+}
+
+/* Menu List Items */
+.menu ul {
+  margin: 20px;
+}
+.menu ul li {
+  margin: 30px 0;
+}
+
+.menu ul a {
+  text-decoration: none;
+  color: #333; /* Dark color for readability */
+  font-size: 1.5rem;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  background-color: #e1e1e1;
+  padding: 2px;
+  border-radius: 2px;
+}
+
+.home-menu ul {
+  color: #000000;
+  display: flex;
+  list-style-type: none;
+}
+.home-menu ul li {
+  color: #007bff;
+  margin-right: 2em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.3s ease, background-color 0.3s ease, padding 0.3s ease;
+}
+.home-menu ul li:hover {
+  color: #fff;
+  background-color: #8c8c8c;
+  padding: 2px;
+}

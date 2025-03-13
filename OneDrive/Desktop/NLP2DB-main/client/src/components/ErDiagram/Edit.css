@@ -1,0 +1,223 @@
+/* Top Edit Bar */
+.top-edit {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f7f9fc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.top-edit h2 {
+  color: #004a98;
+  font-size: 20px;
+  margin: 0;
+}
+
+.top-edit button {
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.top-edit button:hover {
+  background-color: #0056b3;
+}
+
+/* Entity and Relationship Container */
+.er-edit-container {
+  padding: 20px;
+  min-height: 90vh;
+  max-width: 800px;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.scrollable-entities {
+  max-height: 85vh;
+  overflow-y: auto;
+  border: 1px solid #e0e0e0;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+.edit-items button:first-child {
+  margin-right: 1em;
+}
+/* Entity Styling */
+.entity-container {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.entity-info h4 {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.entity-name label {
+  font-weight: 600;
+  font-size: 14px;
+  color: #555;
+}
+
+.entity-name label input {
+  margin-left: 8px;
+  padding: 8px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.entity-name label input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Attribute Styling */
+.attributes {
+  margin-top: 10px;
+}
+
+.attribute {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.attribute input {
+  padding: 8px;
+  font-size: 14px;
+  width: 45%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.attribute input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.attribute button {
+  background-color: transparent;
+  color: #ff4d4d;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.attribute button:hover {
+  color: #cc0000;
+}
+.attribute-btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+/* Buttons */
+.add-attribute,
+.add-entity,
+.delete-entity {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-attribute,
+.add-entity {
+  background-color: #007bff;
+  color: white;
+}
+
+.add-attribute:hover,
+.add-entity:hover {
+  background-color: #0056b3;
+}
+.add-entity {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.delete-entity {
+  margin-left: auto;
+  margin-right: 0px;
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.delete-entity:hover {
+  background-color: #cc0000;
+}
+
+/* Relationship Styling */
+.edit-rel-container h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #004a98;
+  margin-bottom: 15px;
+}
+
+.relationship {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #f9f9f9;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.relationship label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.relationship label input {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.relationship label input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.relationship button {
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.relationship button:hover {
+  background-color: #cc0000;
+}
